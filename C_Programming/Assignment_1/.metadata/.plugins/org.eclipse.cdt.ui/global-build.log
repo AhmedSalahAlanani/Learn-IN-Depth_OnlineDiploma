@@ -77,3 +77,104 @@ gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c"
 gcc -ansi -std=c89 -o Assignment_1_3.exe main.o 
 Info: Nothing to build for Assignment_1_3
 Info: Nothing to build for Assignment_1_3
+15:28:19 **** Rebuild of configuration Debug for project Assignment_1_4 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Assignment_1_4.exe main.o 
+Info: Nothing to build for Assignment_1_4
+15:33:15 **** Rebuild of configuration Debug for project Assignment_1_5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Assignment_1_5.exe main.o 
+15:33:54 **** Incremental Build of configuration Debug for project Assignment_1_5 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Assignment_1_5.exe main.o 
+15:38:12 **** Incremental Build of configuration Debug for project Assignment_1_5 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:14:10: warning: format '%C' expects argument of type 'wchar_t *', but argument 2 has type 'char *' [-Wformat=]
+   14 |  scanf("%C ", &ch);
+      |         ~^    ~~~
+      |          |    |
+      |          |    char *
+      |          short unsigned int *
+      |         %c
+gcc -ansi -std=c89 -o Assignment_1_5.exe main.o 
+15:38:40 **** Incremental Build of configuration Debug for project Assignment_1_5 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Assignment_1_5.exe main.o 
+Info: Nothing to build for Assignment_1_5
+15:38:57 **** Incremental Build of configuration Debug for project Assignment_1_5 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Assignment_1_5.exe main.o 
+Info: Nothing to build for Assignment_1_5
+15:48:13 **** Rebuild of configuration Debug for project Assignment_1_6 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Assignment_1_6.exe main.o 
+Info: Nothing to build for Assignment_1_6
+15:48:51 **** Incremental Build of configuration Debug for project Assignment_1_6 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Assignment_1_6.exe main.o 
+Info: Nothing to build for Assignment_1_6
+15:55:16 **** Rebuild of configuration Debug for project Assignment_1_7 ****
+Info: Internal Builder is used for build
+gcc-ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+Cannot run program "gcc-ansi": Launching failed
+
+Error: Program "gcc-ansi" not found in PATH
+PATH=[C:\MinGW\bin;C:\MinGW\msys\1.0\bin;C:\MinGW\msys\1.0\usr\bin;C:/Program Files (x86)/Java/jre1.8.0_301/bin/client;C:/Program Files (x86)/Java/jre1.8.0_301/bin;C:/Program Files (x86)/Java/jre1.8.0_301/lib/i386;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Embarcadero\Studio\21.0\bin;C:\Users\Public\Documents\Embarcadero\Studio\21.0\Bpl;C:\Program Files (x86)\Embarcadero\Studio\21.0\bin64;C:\Users\Public\Documents\Embarcadero\Studio\21.0\Bpl\Win64;C:\Program Files\Python39\Scripts\;C:\Program Files\Python39\;C:\Program Files (x86)\Embarcadero\Studio\20.0\bin;C:\Users\Public\Documents\Embarcadero\Studio\20.0\Bpl;C:\Program Files (x86)\Embarcadero\Studio\20.0\bin64;C:\Users\Public\Documents\Embarcadero\Studio\20.0\Bpl\Win64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WinAVR-20100110\bin;C:\WinAVR-20100110\utils\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\MATLAB\R2017b\runtime\win64;C:\Program Files\MATLAB\R2017b\bin;C:\OrCAD\OrCAD_16.6_Lite\tools\bin;C:\OrCAD\OrCAD_16.6_Lite\tools\specctra\bin;C:\OrCAD\OrCAD_16.6_Lite\tools\PSpice;C:\OrCAD\OrCAD_16.6_Lite\tools\Capture;C:\OrCAD\OrCAD_16.6_Lite\tools\fet\bin;C:\OrCAD\OrCAD_16.6_Lite\tools\pcb\bin;C:\OrCAD\OrCAD_16.6_Lite\OpenAccess\bin\win32\opt;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\MinGW\bin;C:\Users\Ahmed\AppData\Roaming\Python\Python38\Scripts;C:\Program Files\Git\cmd;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\MATLAB\R2016a\runtime\win64;C:\Program Files\MATLAB\R2016a\bin;C:\Program Files\MATLAB\R2016a\polyspace\bin;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;C:\Program Files\Microchip\xc8\v2.31\bin;C:\msys64\mingw64\bin;C:\Program Files (x86)\Git\cmd;C:\Users\Ahmed\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Ahmed\AppData\Local\Programs\Python\Python39\;C:\Users\Ahmed\AppData\Local\Microsoft\WindowsApps;C:\Modeltech_pe_edu_10.4a\win32pe_edu;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Ahmed\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\Embarcadero\Studio\20.0\bin;C:\Program Files\Java\jdk-16.0.1\bin;C:\Program Files\Java\jre1.8.0_291\bin;C:\msys64\mingw64\bin;;X:\Study\Learn_In_Depth_OnlineDiploma\Tools\eclipse-cpp-neon-2-win32\eclipse]
+
+15:55:26 **** Incremental Build of configuration Debug for project Assignment_1_7 ****
+Info: Internal Builder is used for build
+gcc-ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+Cannot run program "gcc-ansi": Launching failed
+
+Error: Program "gcc-ansi" not found in PATH
+PATH=[C:\MinGW\bin;C:\MinGW\msys\1.0\bin;C:\MinGW\msys\1.0\usr\bin;C:/Program Files (x86)/Java/jre1.8.0_301/bin/client;C:/Program Files (x86)/Java/jre1.8.0_301/bin;C:/Program Files (x86)/Java/jre1.8.0_301/lib/i386;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Embarcadero\Studio\21.0\bin;C:\Users\Public\Documents\Embarcadero\Studio\21.0\Bpl;C:\Program Files (x86)\Embarcadero\Studio\21.0\bin64;C:\Users\Public\Documents\Embarcadero\Studio\21.0\Bpl\Win64;C:\Program Files\Python39\Scripts\;C:\Program Files\Python39\;C:\Program Files (x86)\Embarcadero\Studio\20.0\bin;C:\Users\Public\Documents\Embarcadero\Studio\20.0\Bpl;C:\Program Files (x86)\Embarcadero\Studio\20.0\bin64;C:\Users\Public\Documents\Embarcadero\Studio\20.0\Bpl\Win64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WinAVR-20100110\bin;C:\WinAVR-20100110\utils\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\MATLAB\R2017b\runtime\win64;C:\Program Files\MATLAB\R2017b\bin;C:\OrCAD\OrCAD_16.6_Lite\tools\bin;C:\OrCAD\OrCAD_16.6_Lite\tools\specctra\bin;C:\OrCAD\OrCAD_16.6_Lite\tools\PSpice;C:\OrCAD\OrCAD_16.6_Lite\tools\Capture;C:\OrCAD\OrCAD_16.6_Lite\tools\fet\bin;C:\OrCAD\OrCAD_16.6_Lite\tools\pcb\bin;C:\OrCAD\OrCAD_16.6_Lite\OpenAccess\bin\win32\opt;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\MinGW\bin;C:\Users\Ahmed\AppData\Roaming\Python\Python38\Scripts;C:\Program Files\Git\cmd;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\MATLAB\R2016a\runtime\win64;C:\Program Files\MATLAB\R2016a\bin;C:\Program Files\MATLAB\R2016a\polyspace\bin;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;C:\Program Files\Microchip\xc8\v2.31\bin;C:\msys64\mingw64\bin;C:\Program Files (x86)\Git\cmd;C:\Users\Ahmed\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Ahmed\AppData\Local\Programs\Python\Python39\;C:\Users\Ahmed\AppData\Local\Microsoft\WindowsApps;C:\Modeltech_pe_edu_10.4a\win32pe_edu;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Ahmed\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\Embarcadero\Studio\20.0\bin;C:\Program Files\Java\jdk-16.0.1\bin;C:\Program Files\Java\jre1.8.0_291\bin;C:\msys64\mingw64\bin;;X:\Study\Learn_In_Depth_OnlineDiploma\Tools\eclipse-cpp-neon-2-win32\eclipse]
+
+15:55:45 **** Incremental Build of configuration Debug for project Assignment_1_7 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:22:4: error: invalid operands to binary ^ (have 'float' and 'float')
+   22 |  a ^= b;
+      |    ^~
+..\main.c:23:4: error: invalid operands to binary ^ (have 'float' and 'float')
+   23 |  b ^= a;
+      |    ^~
+..\main.c:24:4: error: invalid operands to binary ^ (have 'float' and 'float')
+   24 |  a ^= b;
+      |    ^~
+16:00:08 **** Incremental Build of configuration Debug for project Assignment_1_7 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Assignment_1_7.exe main.o 
+16:03:23 **** Incremental Build of configuration Debug for project Assignment_1_7 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:22:2: error: C++ style comments are not allowed in ISO C90
+   22 |  // First Method
+      |  ^
+..\main.c:22:2: note: (this will be reported only once per input file)
+16:03:41 **** Incremental Build of configuration Debug for project Assignment_1_7 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Assignment_1_7.exe main.o 
+Info: Nothing to build for Assignment_1_7
+16:04:42 **** Incremental Build of configuration Debug for project Assignment_1_7 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Assignment_1_7.exe main.o 
+Info: Nothing to build for Assignment_1_7
+16:06:45 **** Incremental Build of configuration Debug for project Assignment_1_7 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Assignment_1_7.exe main.o 
+Info: Nothing to build for Assignment_1_7
