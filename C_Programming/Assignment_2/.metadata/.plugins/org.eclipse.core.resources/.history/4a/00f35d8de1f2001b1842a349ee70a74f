@@ -11,7 +11,7 @@
 int main(void)
 {
 	char ch;
-	char type[10];
+	char type[8];
 
 	printf("Enter an alphabet: ");
 	fflush(stdin);		fflush(stdout);
@@ -42,7 +42,7 @@ int main(void)
 	}
 
 
-	printf("%c is a %s", ch, type);
+	printf("%c is a %s", type);
 
 	return 0;
 }

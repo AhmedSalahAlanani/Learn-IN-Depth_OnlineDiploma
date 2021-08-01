@@ -1,0 +1,172 @@
+16:35:06 **** Rebuild of configuration Debug for project Assignment_2_1 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Assignment_2_1.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../libmingw32.a(main.o):(.text.startup+0xc0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+16:35:51 **** Incremental Build of configuration Debug for project Assignment_2_1 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Assignment_2_1.exe main.o 
+Info: Nothing to build for Assignment_2_1
+Info: Nothing to build for Assignment_2_1
+17:56:05 **** Rebuild of configuration Debug for project Assignment_2_2 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:32:8: error: assignment to expression with array type
+   32 |   type = "Vowel";
+      |        ^
+..\main.c:38:8: error: assignment to expression with array type
+   38 |   type = "Consonant";
+      |        ^
+17:56:45 **** Incremental Build of configuration Debug for project Assignment_2_2 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:32:8: error: assignment to expression with array type
+   32 |   type = (char*)("Vowel");
+      |        ^
+..\main.c:38:8: error: assignment to expression with array type
+   38 |   type = "Consonant";
+      |        ^
+17:59:06 **** Incremental Build of configuration Debug for project Assignment_2_2 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:39:8: error: assignment to expression with array type
+   39 |   type = "Consonant";
+      |        ^
+..\main.c:33:4: warning: 'strncpy' output truncated before terminating nul copying 5 bytes from a string of the same length [-Wstringop-truncation]
+   33 |    strncpy(type, "Vowel", 5);
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~
+17:59:16 **** Incremental Build of configuration Debug for project Assignment_2_2 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:39:8: error: assignment to expression with array type
+   39 |   type = "Consonant";
+      |        ^
+17:59:39 **** Incremental Build of configuration Debug for project Assignment_2_2 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:39:4: warning: 'strncpy' output truncated copying 8 bytes from a string of length 9 [-Wstringop-truncation]
+   39 |    strncpy(type, "Consonant", 8);
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -ansi -std=c89 -o Assignment_2_2.exe main.o 
+17:59:50 **** Incremental Build of configuration Debug for project Assignment_2_2 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:39:4: warning: 'strncpy' output truncated before terminating nul copying 9 bytes from a string of the same length [-Wstringop-truncation]
+   39 |    strncpy(type, "Consonant", 9);
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\main.c:39:4: warning: '__builtin_memcpy' writing 9 bytes into a region of size 8 overflows the destination [-Wstringop-overflow=]
+gcc -ansi -std=c89 -o Assignment_2_2.exe main.o 
+17:59:58 **** Incremental Build of configuration Debug for project Assignment_2_2 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:39:4: warning: '__builtin_memcpy' writing 10 bytes into a region of size 8 overflows the destination [-Wstringop-overflow=]
+   39 |    strncpy(type, "Consonant", 10);
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -ansi -std=c89 -o Assignment_2_2.exe main.o 
+18:00:11 **** Incremental Build of configuration Debug for project Assignment_2_2 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Assignment_2_2.exe main.o 
+18:00:16 **** Incremental Build of configuration Debug for project Assignment_2_2 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:39:4: warning: 'strncpy' output truncated before terminating nul copying 9 bytes from a string of the same length [-Wstringop-truncation]
+   39 |    strncpy(type, "Consonant", 9);
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -ansi -std=c89 -o Assignment_2_2.exe main.o 
+18:00:29 **** Incremental Build of configuration Debug for project Assignment_2_2 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Assignment_2_2.exe main.o 
+Info: Nothing to build for Assignment_2_2
+Info: Nothing to build for Assignment_2_2
+Info: Nothing to build for Assignment_2_2
+18:02:53 **** Incremental Build of configuration Debug for project Assignment_2_2 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Assignment_2_2.exe main.o 
+Info: Nothing to build for Assignment_2_2
+Info: Nothing to build for Assignment_2_2
+Info: Nothing to build for Assignment_2_2
+Info: Nothing to build for Assignment_2_2
+Info: Nothing to build for Assignment_2_2
+Info: Nothing to build for Assignment_2_2
+18:04:08 **** Incremental Build of configuration Debug for project Assignment_2_2 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Assignment_2_2.exe main.o 
+Info: Nothing to build for Assignment_2_2
+18:04:29 **** Incremental Build of configuration Debug for project Assignment_2_2 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Assignment_2_2.exe main.o 
+Info: Nothing to build for Assignment_2_2
+Info: Nothing to build for Assignment_2_2
+18:11:10 **** Rebuild of configuration Debug for project Assignment_2_3 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Assignment_2_3.exe main.o 
+Info: Nothing to build for Assignment_2_3
+Info: Nothing to build for Assignment_2_3
+18:25:13 **** Rebuild of configuration Debug for project Assignment_2_4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Assignment_2_4.exe main.o 
+Info: Nothing to build for Assignment_2_4
+Info: Nothing to build for Assignment_2_4
+Info: Nothing to build for Assignment_2_4
+18:31:50 **** Rebuild of configuration Debug for project Assignment_2_5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Assignment_2_5.exe main.o 
+Info: Nothing to build for Assignment_2_5
+Info: Nothing to build for Assignment_2_5
+18:32:41 **** Incremental Build of configuration Debug for project Assignment_2_5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Assignment_2_5.exe main.o 
+Info: Nothing to build for Assignment_2_5
+Info: Nothing to build for Assignment_2_5
+Info: Nothing to build for Assignment_2_5
+18:36:41 **** Rebuild of configuration Debug for project Assignment_2_6 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Assignment_2_6.exe main.o 
+Info: Nothing to build for Assignment_2_6
+18:36:59 **** Incremental Build of configuration Debug for project Assignment_2_6 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Assignment_2_6.exe main.o 
+Info: Nothing to build for Assignment_2_6
+Info: Nothing to build for Assignment_2_6
+Info: Nothing to build for Assignment_2_6
+Info: Nothing to build for Assignment_2_6
+Info: Nothing to build for Assignment_2_6
+Info: Nothing to build for Assignment_2_6
+18:40:54 **** Rebuild of configuration Debug for project Assignment_2_7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Assignment_2_7.exe main.o 
+Info: Nothing to build for Assignment_2_7
+Info: Nothing to build for Assignment_2_7
+Info: Nothing to build for Assignment_2_7
+Info: Nothing to build for Assignment_2_7
+Info: Nothing to build for Assignment_2_7
+Info: Nothing to build for Assignment_2_7
+Info: Nothing to build for Assignment_2_7
+18:55:02 **** Rebuild of configuration Debug for project Assignment_2_8 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Assignment_2_8.exe main.o 
+Info: Nothing to build for Assignment_2_8
+Info: Nothing to build for Assignment_2_8

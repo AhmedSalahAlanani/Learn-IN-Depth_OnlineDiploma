@@ -36,13 +36,13 @@ int main(void)
 
 	default:
 	{
-		 strncpy(type, "Consonant", 10);
+		 strncpy(type, "Consonant", 9);
 	}
 	break;
 	}
 
 
-	printf("%c is a %s", ch, type);
+	printf("%c is a %s", type);
 
 	return 0;
 }

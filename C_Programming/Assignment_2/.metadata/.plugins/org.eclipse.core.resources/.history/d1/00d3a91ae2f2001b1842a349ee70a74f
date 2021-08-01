@@ -42,7 +42,7 @@ int main(void)
 	}
 
 
-	printf("%c is a %s", ch, type);
+	printf("%c is a %s", *type);
 
 	return 0;
 }

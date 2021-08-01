@@ -6,12 +6,11 @@
  */
 
 #include <stdio.h>
-#include <string.h>
 
 int main(void)
 {
 	char ch;
-	char type[10];
+	char type[8];
 
 	printf("Enter an alphabet: ");
 	fflush(stdin);		fflush(stdout);
@@ -30,19 +29,19 @@ int main(void)
 	case 'u':
 	case 'U':
 	{
-		 strncpy(type, "Vowel", 6);
+		type = "Vowel";
 	}
 	break;
 
 	default:
 	{
-		 strncpy(type, "Consonant", 10);
+		type = "Consonant";
 	}
 	break;
 	}
 
 
-	printf("%c is a %s", ch, type);
+	printf("%c is a %s", type);
 
 	return 0;
 }
