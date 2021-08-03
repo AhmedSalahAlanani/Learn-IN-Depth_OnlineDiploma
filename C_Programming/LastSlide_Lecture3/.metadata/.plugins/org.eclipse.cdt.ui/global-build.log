@@ -8,3 +8,110 @@ Info: Internal Builder is used for build
 gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
 gcc -ansi -std=c89 -o Slide78.exe main.o 
 Info: Nothing to build for Slide78
+19:23:45 **** Incremental Build of configuration Debug for project Slide78 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Slide78.exe main.o 
+Info: Nothing to build for Slide78
+03:36:28 **** Incremental Build of configuration Debug for project Slide78 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:24:21: error: 'b' undeclared (first use in this function)
+   24 |  for(i=0; i<=n; i++)b
+      |                     ^
+..\main.c:24:21: note: each undeclared identifier is reported only once for each function it appears in
+..\main.c:24:22: error: expected ';' before '{' token
+   24 |  for(i=0; i<=n; i++)b
+      |                      ^
+      |                      ;
+   25 |  {
+      |  ~                    
+..\main.c:36:1: warning: control reaches end of non-void function [-Wreturn-type]
+   36 | }
+      | ^
+03:36:45 **** Incremental Build of configuration Debug for project Slide78 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Slide78.exe main.o 
+Info: Nothing to build for Slide78
+03:38:34 **** Incremental Build of configuration Debug for project Slide78 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:22:15: error: lvalue required as left operand of assignment
+   22 |  char ch = 97 = 'a';
+      |               ^
+..\main.c:22:7: warning: unused variable 'ch' [-Wunused-variable]
+   22 |  char ch = 97 = 'a';
+      |       ^~
+03:39:18 **** Incremental Build of configuration Debug for project Slide78 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:22:15: error: lvalue required as left operand of assignment
+   22 |  char ch = 97 = 'a';
+      |               ^
+..\main.c:22:7: warning: unused variable 'ch' [-Wunused-variable]
+   22 |  char ch = 97 = 'a';
+      |       ^~
+03:39:22 **** Incremental Build of configuration Debug for project Slide78 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:22:15: error: lvalue required as left operand of assignment
+   22 |  char ch = 97 = 'a'
+      |               ^
+..\main.c:25:2: error: expected ',' or ';' before 'int'
+   25 |  int i;
+      |  ^~~
+..\main.c:26:6: error: 'i' undeclared (first use in this function)
+   26 |  for(i=0; i<=n; i++)
+      |      ^
+..\main.c:26:6: note: each undeclared identifier is reported only once for each function it appears in
+..\main.c:22:7: warning: unused variable 'ch' [-Wunused-variable]
+   22 |  char ch = 97 = 'a'
+      |       ^~
+03:39:26 **** Incremental Build of configuration Debug for project Slide78 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:22:15: error: lvalue required as left operand of assignment
+   22 |  char ch = 97 = 'a';
+      |               ^
+..\main.c:22:7: warning: unused variable 'ch' [-Wunused-variable]
+   22 |  char ch = 97 = 'a';
+      |       ^~
+03:40:02 **** Incremental Build of configuration Debug for project Slide78 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:22:15: error: lvalue required as left operand of assignment
+   22 |  char ch = 97 = 'a'
+      |               ^
+..\main.c:25:2: error: expected ',' or ';' before 'int'
+   25 |  int i;
+      |  ^~~
+..\main.c:26:6: error: 'i' undeclared (first use in this function)
+   26 |  for(i=0; i<=n; i++)
+      |      ^
+..\main.c:26:6: note: each undeclared identifier is reported only once for each function it appears in
+..\main.c:22:7: warning: unused variable 'ch' [-Wunused-variable]
+   22 |  char ch = 97 = 'a'
+      |       ^~
+03:40:04 **** Incremental Build of configuration Debug for project Slide78 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:22:15: error: lvalue required as left operand of assignment
+   22 |  char ch = 97 = 'a';
+      |               ^
+..\main.c:22:7: warning: unused variable 'ch' [-Wunused-variable]
+   22 |  char ch = 97 = 'a';
+      |       ^~
+03:40:45 **** Incremental Build of configuration Debug for project Slide78 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Slide78.exe main.o 
+Info: Nothing to build for Slide78
+Info: Nothing to build for Slide78
