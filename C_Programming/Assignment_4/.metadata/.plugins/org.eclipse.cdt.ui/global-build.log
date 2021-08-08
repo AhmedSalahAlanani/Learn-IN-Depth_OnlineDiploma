@@ -1,0 +1,83 @@
+17:39:55 **** Rebuild of configuration Debug for project Assignment_4_1 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Assignment_4_1.exe main.o 
+17:47:14 **** Incremental Build of configuration Debug for project Assignment_4_1 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Assignment_4_1.exe main.o 
+Info: Nothing to build for Assignment_4_1
+17:48:10 **** Incremental Build of configuration Debug for project Assignment_4_1 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Assignment_4_1.exe main.o 
+Info: Nothing to build for Assignment_4_1
+17:49:09 **** Incremental Build of configuration Debug for project Assignment_4_1 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Assignment_4_1.exe main.o 
+Info: Nothing to build for Assignment_4_1
+17:58:40 **** Rebuild of configuration Debug for project Assignment_4_2 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Assignment_4_2.exe main.o 
+Info: Nothing to build for Assignment_4_2
+18:07:31 **** Rebuild of configuration Debug for project Assignment_4_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Assignment_4_3.exe main.o 
+Info: Nothing to build for Assignment_4_3
+18:07:52 **** Incremental Build of configuration Debug for project Assignment_4_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Assignment_4_3.exe main.o 
+18:08:44 **** Incremental Build of configuration Debug for project Assignment_4_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Assignment_4_3.exe main.o 
+Info: Nothing to build for Assignment_4_3
+18:09:37 **** Incremental Build of configuration Debug for project Assignment_4_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Assignment_4_3.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Assignment_4_3.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+18:09:51 **** Incremental Build of configuration Debug for project Assignment_4_3 ****
+Info: Internal Builder is used for build
+gcc -o Assignment_4_3.exe main.o 
+Info: Nothing to build for Assignment_4_3
+18:14:45 **** Incremental Build of configuration Debug for project Assignment_4_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'reverse_sentence':
+..\main.c:45:1: warning: control reaches end of non-void function [-Wreturn-type]
+   45 | }
+      | ^
+gcc -o Assignment_4_3.exe main.o 
+18:15:34 **** Incremental Build of configuration Debug for project Assignment_4_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Assignment_4_3.exe main.o 
+Info: Nothing to build for Assignment_4_3
+Info: Nothing to build for Assignment_4_3
+18:41:14 **** Incremental Build of configuration Debug for project Assignment_4_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Assignment_4_3.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Assignment_4_3.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+18:41:39 **** Incremental Build of configuration Debug for project Assignment_4_3 ****
+Info: Internal Builder is used for build
+gcc -o Assignment_4_3.exe main.o 
+Info: Nothing to build for Assignment_4_3
+Info: Nothing to build for Assignment_4_3
+19:12:45 **** Incremental Build of configuration Debug for project Assignment_4_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Assignment_4_3.exe main.o 
+Info: Nothing to build for Assignment_4_3
+19:21:49 **** Rebuild of configuration Debug for project Assignment_4_4 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Assignment_4_4.exe main.o 
+Info: Nothing to build for Assignment_4_4

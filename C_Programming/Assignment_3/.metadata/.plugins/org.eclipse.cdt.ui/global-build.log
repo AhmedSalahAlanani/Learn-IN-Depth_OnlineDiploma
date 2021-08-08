@@ -232,3 +232,89 @@ Info: Internal Builder is used for build
 gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
 gcc -ansi -std=c89 -o Assignment_3_8.exe main.o 
 Info: Nothing to build for Assignment_3_8
+01:57:15 **** Incremental Build of configuration Debug for project Assignment_3_8 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:27:6: error: redeclaration of 'i' with no linkage
+   27 |  int i;
+      |      ^
+..\main.c:14:6: note: previous declaration of 'i' was here
+   14 |  int i;
+      |      ^
+01:57:29 **** Incremental Build of configuration Debug for project Assignment_3_8 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:27:2: error: C++ style comments are not allowed in ISO C90
+   27 |  //int i;
+      |  ^
+..\main.c:27:2: note: (this will be reported only once per input file)
+01:57:45 **** Incremental Build of configuration Debug for project Assignment_3_8 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Assignment_3_8.exe main.o 
+Info: Nothing to build for Assignment_3_8
+01:58:20 **** Incremental Build of configuration Debug for project Assignment_3_8 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Assignment_3_8.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Assignment_3_8.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+01:58:39 **** Incremental Build of configuration Debug for project Assignment_3_8 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -o Assignment_3_8.exe main.o 
+Info: Nothing to build for Assignment_3_8
+01:59:16 **** Incremental Build of configuration Debug for project Assignment_3_8 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Assignment_3_8.exe main.o 
+02:02:49 **** Incremental Build of configuration Debug for project Assignment_3_8 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Assignment_3_8.exe main.o 
+Info: Nothing to build for Assignment_3_8
+Info: Nothing to build for Assignment_3_8
+02:06:54 **** Incremental Build of configuration Debug for project Assignment_3_8 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Assignment_3_8.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Assignment_3_8.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+02:07:11 **** Incremental Build of configuration Debug for project Assignment_3_8 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -o Assignment_3_8.exe main.o 
+Info: Nothing to build for Assignment_3_8
+22:14:21 **** Incremental Build of configuration Debug for project Assignment_3_8 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:13:16: warning: initializer-string for array of chars is too long
+   13 |  char arr[4] = "abfdggdgfd";
+      |                ^~~~~~~~~~~~
+gcc -ansi -std=c89 -o Assignment_3_8.exe main.o 
+Info: Nothing to build for Assignment_3_8
+22:14:59 **** Incremental Build of configuration Debug for project Assignment_3_8 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:13:16: warning: initializer-string for array of chars is too long
+   13 |  char arr[5] = "abfdggdgfd";
+      |                ^~~~~~~~~~~~
+gcc -ansi -std=c89 -o Assignment_3_8.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Assignment_3_8.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+22:15:27 **** Incremental Build of configuration Debug for project Assignment_3_8 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -o Assignment_3_8.exe main.o 
+Info: Nothing to build for Assignment_3_8
+22:15:45 **** Incremental Build of configuration Debug for project Assignment_3_8 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Assignment_3_8.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Assignment_3_8.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+22:15:59 **** Incremental Build of configuration Debug for project Assignment_3_8 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -o Assignment_3_8.exe main.o 
+Info: Nothing to build for Assignment_3_8

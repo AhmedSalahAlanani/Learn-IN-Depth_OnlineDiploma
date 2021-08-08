@@ -1,0 +1,21 @@
+/*
+ * main.c
+ *
+ *  Created on: Aug 8, 2021
+ *      Author: Ahmed Salah
+ */
+
+#include <stdio.h>
+
+int main(void)
+{
+	int lower,upper;
+
+	printf("Enter Two numbers (Intervals): \r\n");
+	fflush(stdin);	fflush(stdout);
+	scanf("%d %d", &lower, &upper);
+
+
+
+	return 0;
+}

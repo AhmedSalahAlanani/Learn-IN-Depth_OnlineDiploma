@@ -1,0 +1,30 @@
+/*
+ * main.c
+ *
+ *  Created on: Aug 8, 2021
+ *      Author: Ahmed Salah
+ */
+
+#include <stdio.h>
+
+char* reverse_sentence (char *sentence, int start, int end);
+
+
+int main(void)
+{
+	char sentence[20];
+
+	printf("Enter a Sentence: \r\n");
+	fflush(stdin);	fflush(stdout);
+	gets(sentence);
+
+	printf("Reversed sentence:  %s\r\n", reverse_sentence(sentence,0,1));
+
+	return 0;
+}
+
+char* reverse_sentence (char *sentence, int start, int end)
+{
+
+	return sentence;
+}
