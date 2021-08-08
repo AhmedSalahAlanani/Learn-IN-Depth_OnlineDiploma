@@ -1,0 +1,321 @@
+20:51:30 **** Rebuild of configuration Debug for project Q1 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:20:6: warning: unused variable 'i' [-Wunused-variable]
+   20 |  int i,state;
+      |      ^
+gcc -ansi -std=c89 -o Q1.exe main.o 
+20:51:52 **** Incremental Build of configuration Debug for project Q1 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q1.exe main.o 
+Info: Nothing to build for Q1
+20:52:23 **** Incremental Build of configuration Debug for project Q1 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:16:14: error: assignment of read-only location 'USERNAME[0]'
+   16 |  USERNAME[0] = 'b';
+      |              ^
+20:52:30 **** Incremental Build of configuration Debug for project Q1 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q1.exe main.o 
+Info: Nothing to build for Q1
+Info: Nothing to build for Q1
+20:53:52 **** Incremental Build of configuration Debug for project Q1 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q1.exe main.o 
+Info: Nothing to build for Q1
+21:04:16 **** Rebuild of configuration Debug for project Q2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:35:6: error: redeclaration of 'i' with no linkage
+   35 |  int i;
+      |      ^
+..\main.c:22:6: note: previous declaration of 'i' was here
+   22 |  int i;
+      |      ^
+21:04:37 **** Incremental Build of configuration Debug for project Q2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Q2.exe main.o 
+Info: Nothing to build for Q2
+21:05:29 **** Incremental Build of configuration Debug for project Q2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Q2.exe main.o 
+Info: Nothing to build for Q2
+Info: Nothing to build for Q2
+Info: Nothing to build for Q2
+Info: Nothing to build for Q2
+21:07:23 **** Incremental Build of configuration Debug for project Q2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Q2.exe main.o 
+Info: Nothing to build for Q2
+21:23:56 **** Incremental Build of configuration Debug for project Q2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Q2.exe main.o 
+Info: Nothing to build for Q2
+21:26:59 **** Incremental Build of configuration Debug for project Q2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Q2.exe main.o 
+Info: Nothing to build for Q2
+21:29:50 **** Incremental Build of configuration Debug for project Q2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Q2.exe main.o 
+Info: Nothing to build for Q2
+21:31:40 **** Incremental Build of configuration Debug for project Q2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Q2.exe main.o 
+Info: Nothing to build for Q2
+21:32:51 **** Incremental Build of configuration Debug for project Q2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Q2.exe main.o 
+Info: Nothing to build for Q2
+21:35:55 **** Incremental Build of configuration Debug for project Q2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:54:6: error: 'i' undeclared (first use in this function)
+   54 |  for(i=0; i<a_length; i++)
+      |      ^
+..\main.c:54:6: note: each undeclared identifier is reported only once for each function it appears in
+21:36:09 **** Incremental Build of configuration Debug for project Q2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Q2.exe main.o 
+Info: Nothing to build for Q2
+21:37:12 **** Incremental Build of configuration Debug for project Q2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Q2.exe main.o 
+Info: Nothing to build for Q2
+Info: Nothing to build for Q2
+21:41:31 **** Incremental Build of configuration Debug for project Q2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Q2.exe main.o 
+Info: Nothing to build for Q2
+Info: Nothing to build for Q2
+21:45:27 **** Incremental Build of configuration Debug for project Q2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Q2.exe main.o 
+Info: Nothing to build for Q2
+Info: Nothing to build for Q2
+22:10:41 **** Rebuild of configuration Debug for project Q3 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:37:13: error: expected expression before ';' token
+   37 |  for(i=0; i<; i++)
+      |             ^
+..\main.c:39:11: error: 'length' undeclared (first use in this function); did you mean 'a_length'?
+   39 |   for(j = length-1; j>i+1; j--)
+      |           ^~~~~~
+      |           a_length
+..\main.c:39:11: note: each undeclared identifier is reported only once for each function it appears in
+Info: Nothing to build for Q2
+22:11:02 **** Incremental Build of configuration Debug for project Q3 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:37:13: error: expected expression before ';' token
+   37 |  for(i=0; i<; i++)
+      |             ^
+Info: Nothing to build for Q2
+22:11:06 **** Incremental Build of configuration Debug for project Q3 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:37:13: error: expected expression before ';' token
+   37 |  for(i=0; i<; i++)
+      |             ^
+Info: Nothing to build for Q2
+22:11:27 **** Incremental Build of configuration Debug for project Q3 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q3.exe main.o 
+Info: Nothing to build for Q3
+Info: Nothing to build for Q2
+22:12:12 **** Incremental Build of configuration Debug for project Q3 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q3.exe main.o 
+Info: Nothing to build for Q3
+22:15:17 **** Rebuild of configuration Debug for project Q4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:18:13: error: 'a_length' undeclared (first use in this function)
+   18 |  for(i=0; i<a_length; i++)
+      |             ^~~~~~~~
+..\main.c:18:13: note: each undeclared identifier is reported only once for each function it appears in
+..\main.c:17:10: warning: unused variable 'temp' [-Wunused-variable]
+   17 |  int i,j,temp;
+      |          ^~~~
+..\main.c:17:8: warning: unused variable 'j' [-Wunused-variable]
+   17 |  int i,j,temp;
+      |        ^
+22:15:54 **** Incremental Build of configuration Debug for project Q4 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:18:13: error: 'a_length' undeclared (first use in this function)
+   18 |  for(i=0; i<a_length; i++)
+      |             ^~~~~~~~
+..\main.c:18:13: note: each undeclared identifier is reported only once for each function it appears in
+22:16:23 **** Incremental Build of configuration Debug for project Q4 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q4.exe main.o 
+Info: Nothing to build for Q4
+Info: Nothing to build for Q4
+22:19:19 **** Incremental Build of configuration Debug for project Q4 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q4.exe main.o 
+Info: Nothing to build for Q4
+22:21:29 **** Incremental Build of configuration Debug for project Q4 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q4.exe main.o 
+Info: Nothing to build for Q4
+22:22:13 **** Incremental Build of configuration Debug for project Q4 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q4.exe main.o 
+Info: Nothing to build for Q4
+22:23:10 **** Incremental Build of configuration Debug for project Q4 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q4.exe main.o 
+Info: Nothing to build for Q4
+22:23:45 **** Incremental Build of configuration Debug for project Q4 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q4.exe main.o 
+Info: Nothing to build for Q4
+22:24:27 **** Incremental Build of configuration Debug for project Q4 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q4.exe main.o 
+Info: Nothing to build for Q4
+22:33:30 **** Rebuild of configuration Debug for project Q5 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:28:23: error: expected ';' before '}' token
+   28 |   num &= ~(1<<bit_num)
+      |                       ^
+      |                       ;
+   29 |  }
+      |  ~                     
+22:33:36 **** Incremental Build of configuration Debug for project Q5 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q5.exe main.o 
+22:33:44 **** Incremental Build of configuration Debug for project Q5 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q5.exe main.o 
+Info: Nothing to build for Q5
+22:34:31 **** Incremental Build of configuration Debug for project Q5 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q5.exe main.o 
+Info: Nothing to build for Q5
+Info: Nothing to build for Q5
+22:35:21 **** Incremental Build of configuration Debug for project Q5 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:28:23: error: expected ';' before '}' token
+   28 |   num &= ~(1<<bit_num)
+      |                       ^
+      |                       ;
+   29 |  }
+      |  ~                     
+22:35:22 **** Incremental Build of configuration Debug for project Q5 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q5.exe main.o 
+Info: Nothing to build for Q5
+22:36:06 **** Incremental Build of configuration Debug for project Q5 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q5.exe main.o 
+Info: Nothing to build for Q5
+Info: Nothing to build for Q5
+22:41:35 **** Rebuild of configuration Debug for project Q6 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q6.exe main.o 
+Info: Nothing to build for Q6
+Info: Nothing to build for Q6
+Info: Nothing to build for Q6
+22:42:41 **** Incremental Build of configuration Debug for project Q6 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q6.exe main.o 
+Info: Nothing to build for Q6
+Info: Nothing to build for Q6
+22:43:06 **** Incremental Build of configuration Debug for project Q6 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q6.exe main.o 
+Info: Nothing to build for Q6
+Info: Nothing to build for Q6
+22:48:23 **** Rebuild of configuration Debug for project Q7 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'check':
+..\main.c:22:1: warning: control reaches end of non-void function [-Wreturn-type]
+   22 | }
+      | ^
+gcc -ansi -std=c89 -o Q7.exe main.o 
+22:48:32 **** Incremental Build of configuration Debug for project Q7 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q7.exe main.o 
+22:50:12 **** Incremental Build of configuration Debug for project Q7 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q7.exe main.o 
+Info: Nothing to build for Q7
+22:50:31 **** Incremental Build of configuration Debug for project Q7 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q7.exe main.o 
+Info: Nothing to build for Q7
+Info: Nothing to build for Q7
+Info: Nothing to build for Q7
+Info: Nothing to build for Q7
+22:56:35 **** Rebuild of configuration Debug for project Q8 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:21:10: warning: unused variable 'temp' [-Wunused-variable]
+   21 |  int i,j,temp;
+      |          ^~~~
+..\main.c:21:8: warning: unused variable 'j' [-Wunused-variable]
+   21 |  int i,j,temp;
+      |        ^
+gcc -ansi -std=c89 -o Q8.exe main.o 
+22:56:49 **** Incremental Build of configuration Debug for project Q8 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q8.exe main.o 
+Info: Nothing to build for Q8
+Info: Nothing to build for Q8
+Info: Nothing to build for Q8

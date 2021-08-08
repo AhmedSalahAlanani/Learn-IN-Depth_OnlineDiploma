@@ -1,0 +1,31 @@
+/*
+ * main.c
+ *
+ *  Created on: Aug 8, 2021
+ *      Author: Ahmed Salah
+ */
+
+
+#include <stdio.h>
+
+int main(void)
+{
+	char str[20];
+
+	printf("Input ASCII number: ");
+
+	int i;
+	for(i=0; i<a_length; i++)
+	{
+		fflush(stdin);	fflush(stdout);
+		scanf("%s", str);
+	}
+
+	printf("You entered = %s\r\n", str);
+
+
+
+
+
+	return 0;
+}
