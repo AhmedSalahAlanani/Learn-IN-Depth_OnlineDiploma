@@ -1,0 +1,475 @@
+17:48:41 **** Incremental Build of configuration Debug for project Q2 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -o Q2.exe main.o 
+Info: Nothing to build for Q2
+17:58:15 **** Rebuild of configuration Debug for project Q3 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q3.exe main.o 
+Info: Nothing to build for Q3
+17:59:03 **** Incremental Build of configuration Debug for project Q3 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q3.exe main.o 
+Info: Nothing to build for Q3
+18:00:16 **** Incremental Build of configuration Debug for project Q3 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q3.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Q3.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+18:00:26 **** Incremental Build of configuration Debug for project Q3 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -o Q3.exe main.o 
+Info: Nothing to build for Q3
+18:04:03 **** Rebuild of configuration Debug for project Q4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:28:1: error: expected identifier or '(' before '{' token
+   28 | {
+      | ^
+18:04:07 **** Incremental Build of configuration Debug for project Q4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'reverse_num':
+..\main.c:32:9: warning: 'rev_num' is used uninitialized in this function [-Wuninitialized]
+   32 |  return rev_num;
+      |         ^~~~~~~
+gcc -o Q4.exe main.o 
+18:05:31 **** Incremental Build of configuration Debug for project Q4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Q4.exe main.o 
+18:05:34 **** Incremental Build of configuration Debug for project Q4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Q4.exe main.o 
+Info: Nothing to build for Q4
+18:05:49 **** Incremental Build of configuration Debug for project Q4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Q4.exe main.o 
+Info: Nothing to build for Q4
+18:09:40 **** Rebuild of configuration Debug for project Q5 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q5.exe main.o 
+Info: Nothing to build for Q5
+18:24:19 **** Rebuild of configuration Debug for project Q6 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'find_unique':
+..\main.c:37:32: error: C++ style comments are not allowed in ISO C90
+   37 |  unsigned int count[10] = {0}; // 0 -> 9
+      |                                ^
+..\main.c:37:32: note: (this will be reported only once per input file)
+..\main.c:60:9: warning: returning 'unsigned int *' from a function with return type 'unsigned int' makes integer from pointer without a cast [-Wint-conversion]
+   60 |  return count;
+      |         ^~~~~
+..\main.c:38:15: warning: variable 'unique_number' set but not used [-Wunused-but-set-variable]
+   38 |  unsigned int unique_number = -1;
+      |               ^~~~~~~~~~~~~
+18:24:36 **** Incremental Build of configuration Debug for project Q6 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'find_unique':
+..\main.c:37:32: error: C++ style comments are not allowed in ISO C90
+   37 |  unsigned int count[10] = {0}; // 0 -> 9
+      |                                ^
+..\main.c:37:32: note: (this will be reported only once per input file)
+18:24:46 **** Incremental Build of configuration Debug for project Q6 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q6.exe main.o 
+Info: Nothing to build for Q6
+18:25:16 **** Incremental Build of configuration Debug for project Q6 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q6.exe main.o 
+Info: Nothing to build for Q6
+18:27:03 **** Incremental Build of configuration Debug for project Q6 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q6.exe main.o 
+Info: Nothing to build for Q6
+18:32:35 **** Rebuild of configuration Debug for project Q7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Q7.exe main.o 
+Info: Nothing to build for Q7
+18:41:42 **** Rebuild of configuration Debug for project Q8 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:29:6: error: redeclaration of 'i' with no linkage
+   29 |  int i;
+      |      ^
+..\main.c:21:6: note: previous declaration of 'i' was here
+   21 |  int i;
+      |      ^
+..\main.c:39:6: error: redeclaration of 'i' with no linkage
+   39 |  int i;
+      |      ^
+..\main.c:29:6: note: previous declaration of 'i' was here
+   29 |  int i;
+      |      ^
+18:41:50 **** Incremental Build of configuration Debug for project Q8 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:29:6: error: redeclaration of 'i' with no linkage
+   29 |  int i;
+      |      ^
+..\main.c:21:6: note: previous declaration of 'i' was here
+   21 |  int i;
+      |      ^
+18:41:56 **** Incremental Build of configuration Debug for project Q8 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q8.exe main.o 
+Info: Nothing to build for Q8
+18:42:42 **** Incremental Build of configuration Debug for project Q8 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q8.exe main.o 
+Info: Nothing to build for Q8
+18:45:44 **** Rebuild of configuration Debug for project Q9 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:21:17: error: 'length' undeclared (first use in this function)
+   21 |    scanf("%u", &length);
+      |                 ^~~~~~
+..\main.c:21:17: note: each undeclared identifier is reported only once for each function it appears in
+..\main.c:30:15: error: 'arr' undeclared (first use in this function)
+   30 |   scanf("%d", arr+i);
+      |               ^~~
+..\main.c:41:2: warning: implicit declaration of function 'rev_arr' [-Wimplicit-function-declaration]
+   41 |  rev_arr(arr,length);
+      |  ^~~~~~~
+..\main.c:15:7: warning: unused variable 'str' [-Wunused-variable]
+   15 |  char str[100];
+      |       ^~~
+..\main.c: In function 'rev_words':
+..\main.c:60:13: error: 'length' undeclared (first use in this function)
+   60 |  for(i=0; i<length; i++)
+      |             ^~~~~~
+..\main.c:64:4: error: 'arr' undeclared (first use in this function)
+   64 |    arr[j] ^= arr[j-1];
+      |    ^~~
+18:57:37 **** Incremental Build of configuration Debug for project Q9 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q9.exe main.o 
+Info: Nothing to build for Q9
+18:58:16 **** Incremental Build of configuration Debug for project Q9 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q9.exe main.o 
+Info: Nothing to build for Q9
+Info: Nothing to build for Q9
+Info: Nothing to build for Q9
+Info: Nothing to build for Q9
+Info: Nothing to build for Q9
+Info: Nothing to build for Q9
+19:15:38 **** Incremental Build of configuration Debug for project Q9 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'rev_words':
+..\main.c:35:20: warning: unused variable 'limit' [-Wunused-variable]
+   35 |  int i,space_index,limit;
+      |                    ^~~~~
+gcc -ansi -std=c89 -o Q9.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Q9.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+19:16:03 **** Incremental Build of configuration Debug for project Q9 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -o Q9.exe main.o 
+Info: Nothing to build for Q9
+19:16:34 **** Incremental Build of configuration Debug for project Q9 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'rev_words':
+..\main.c:35:20: warning: unused variable 'limit' [-Wunused-variable]
+   35 |  int i,space_index,limit;
+      |                    ^~~~~
+gcc -ansi -std=c89 -o Q9.exe main.o 
+19:17:01 **** Incremental Build of configuration Debug for project Q9 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q9.exe main.o 
+Info: Nothing to build for Q9
+19:18:08 **** Incremental Build of configuration Debug for project Q9 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q9.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Q9.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+19:18:19 **** Incremental Build of configuration Debug for project Q9 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -o Q9.exe main.o 
+Info: Nothing to build for Q9
+19:31:32 **** Incremental Build of configuration Debug for project Q9 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q9.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Q9.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+19:31:46 **** Incremental Build of configuration Debug for project Q9 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -o Q9.exe main.o 
+Info: Nothing to build for Q9
+19:32:50 **** Incremental Build of configuration Debug for project Q9 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q9.exe main.o 
+Info: Nothing to build for Q9
+19:33:31 **** Incremental Build of configuration Debug for project Q9 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q9.exe main.o 
+Info: Nothing to build for Q9
+19:34:58 **** Incremental Build of configuration Debug for project Q9 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q9.exe main.o 
+Info: Nothing to build for Q9
+19:35:59 **** Incremental Build of configuration Debug for project Q9 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q9.exe main.o 
+Info: Nothing to build for Q9
+19:39:47 **** Incremental Build of configuration Debug for project Q9 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q9.exe main.o 
+Info: Nothing to build for Q9
+19:41:33 **** Incremental Build of configuration Debug for project Q9 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q9.exe main.o 
+Info: Nothing to build for Q9
+19:58:55 **** Incremental Build of configuration Debug for project Q9 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q9.exe main.o 
+Info: Nothing to build for Q9
+20:00:16 **** Incremental Build of configuration Debug for project Q9 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q9.exe main.o 
+Info: Nothing to build for Q9
+20:02:24 **** Incremental Build of configuration Debug for project Q9 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q9.exe main.o 
+Info: Nothing to build for Q9
+20:03:50 **** Incremental Build of configuration Debug for project Q9 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q9.exe main.o 
+Info: Nothing to build for Q9
+20:04:37 **** Incremental Build of configuration Debug for project Q9 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q9.exe main.o 
+Info: Nothing to build for Q9
+20:07:06 **** Incremental Build of configuration Debug for project Q9 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q9.exe main.o 
+Info: Nothing to build for Q9
+20:10:35 **** Incremental Build of configuration Debug for project Q9 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q9.exe main.o 
+Info: Nothing to build for Q9
+20:12:06 **** Incremental Build of configuration Debug for project Q9 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q9.exe main.o 
+Info: Nothing to build for Q9
+20:19:26 **** Incremental Build of configuration Debug for project Q9 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q9.exe main.o 
+Info: Nothing to build for Q9
+20:19:41 **** Incremental Build of configuration Debug for project Q9 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q9.exe main.o 
+Info: Nothing to build for Q9
+20:20:36 **** Incremental Build of configuration Debug for project Q9 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q9.exe main.o 
+Info: Nothing to build for Q9
+20:22:08 **** Incremental Build of configuration Debug for project Q9 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q9.exe main.o 
+Info: Nothing to build for Q9
+20:23:10 **** Incremental Build of configuration Debug for project Q9 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q9.exe main.o 
+Info: Nothing to build for Q9
+Info: Nothing to build for Q9
+Info: Nothing to build for Q9
+20:23:56 **** Incremental Build of configuration Debug for project Q9 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q9.exe main.o 
+Info: Nothing to build for Q9
+Info: Nothing to build for Q9
+Info: Nothing to build for Q9
+20:33:12 **** Incremental Build of configuration Debug for project Q9 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q9.exe main.o 
+Info: Nothing to build for Q9
+Info: Nothing to build for Q9
+20:34:46 **** Incremental Build of configuration Debug for project Q9 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q9.exe main.o 
+Info: Nothing to build for Q9
+20:35:14 **** Incremental Build of configuration Debug for project Q9 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q9.exe main.o 
+Info: Nothing to build for Q9
+Info: Nothing to build for Q9
+Info: Nothing to build for Q9
+20:37:46 **** Incremental Build of configuration Debug for project Q9 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q9.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Q9.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+20:37:58 **** Incremental Build of configuration Debug for project Q9 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -o Q9.exe main.o 
+Info: Nothing to build for Q9
+20:40:00 **** Incremental Build of configuration Debug for project Q9 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q9.exe main.o 
+Info: Nothing to build for Q9
+20:41:34 **** Incremental Build of configuration Debug for project Q9 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q9.exe main.o 
+Info: Nothing to build for Q9
+20:42:56 **** Incremental Build of configuration Debug for project Q9 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q9.exe main.o 
+Info: Nothing to build for Q9
+20:46:01 **** Incremental Build of configuration Debug for project Q9 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q9.exe main.o 
+Info: Nothing to build for Q9
+Info: Nothing to build for Q9
+20:51:43 **** Incremental Build of configuration Debug for project Q9 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q9.exe main.o 
+Info: Nothing to build for Q9
+Info: Nothing to build for Q9
+20:53:46 **** Incremental Build of configuration Debug for project Q9 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q9.exe main.o 
+Info: Nothing to build for Q9
+20:54:17 **** Incremental Build of configuration Debug for project Q9 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q9.exe main.o 
+Info: Nothing to build for Q9
+20:57:14 **** Incremental Build of configuration Debug for project Q9 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q9.exe main.o 
+Info: Nothing to build for Q9
+20:58:09 **** Incremental Build of configuration Debug for project Q9 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q9.exe main.o 
+Info: Nothing to build for Q9
+20:59:55 **** Incremental Build of configuration Debug for project Q9 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q9.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Q9.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+21:00:09 **** Incremental Build of configuration Debug for project Q9 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -o Q9.exe main.o 
+Info: Nothing to build for Q9
+21:03:03 **** Incremental Build of configuration Debug for project Q9 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q9.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Q9.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+21:03:13 **** Incremental Build of configuration Debug for project Q9 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -o Q9.exe main.o 
+Info: Nothing to build for Q9
+21:03:38 **** Incremental Build of configuration Debug for project Q9 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q9.exe main.o 
+Info: Nothing to build for Q9
+21:09:25 **** Rebuild of configuration Debug for project Q10 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'count_ones':
+..\main.c:34:15: warning: unused variable 'count' [-Wunused-variable]
+   34 |  unsigned int count[10] = {0}, max = 0;
+      |               ^~~~~
+gcc -ansi -std=c89 -o Q10.exe main.o 
+21:16:41 **** Incremental Build of configuration Debug for project Q10 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q10.exe main.o 
+21:18:49 **** Incremental Build of configuration Debug for project Q10 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q10.exe main.o 
+Info: Nothing to build for Q10
+21:19:21 **** Incremental Build of configuration Debug for project Q10 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q10.exe main.o 
+Info: Nothing to build for Q10
+21:20:29 **** Incremental Build of configuration Debug for project Q10 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q10.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Q10.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+21:20:43 **** Incremental Build of configuration Debug for project Q10 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -o Q10.exe main.o 
+Info: Nothing to build for Q10
+21:25:54 **** Incremental Build of configuration Debug for project Q10 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q10.exe main.o 
+Info: Nothing to build for Q10
+Info: Nothing to build for Q10
+21:28:36 **** Incremental Build of configuration Debug for project Q10 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:20:3: error: expected expression before '/' token
+   20 |   /printf("\r\nPlease insert a string of numbers: ");
+      |   ^
+21:28:43 **** Incremental Build of configuration Debug for project Q10 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Q10.exe main.o 
+Info: Nothing to build for Q10
