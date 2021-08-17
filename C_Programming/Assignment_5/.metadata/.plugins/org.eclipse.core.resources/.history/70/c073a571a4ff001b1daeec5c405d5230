@@ -1,0 +1,50 @@
+/*
+ * main.c
+ *
+ *  Created on: Aug 17, 2021
+ *      Author: Ahmed Salah
+ */
+
+/*
+ * main.c
+ *
+ *  Created on: Aug 17, 2021
+ *      Author: Ahmed Salah
+ */
+
+
+#include <stdio.h>
+
+struct Sdistance
+{
+	int feet;
+	float inch;
+} distance_1;
+
+int main (void)
+{
+	struct Sdistance distance_2;
+
+	printf("Enter information for 1st distance: \r\n");
+
+	printf("Enter feet: ");
+	fflush(stdin);	fflush(stdout);
+	scanf("%d",distance_1.feet);
+
+	printf("Enter feet: ");
+	fflush(stdin);	fflush(stdout);
+	scanf("%d",distance_1.feet);
+
+	printf("Enter marks: ");
+	fflush(stdin);	fflush(stdout);
+	scanf("%f",&student_1.mark);
+
+	printf("Displaying Information: \r\n");
+	printf("Name: %s\r\n",student_1.name);
+	printf("Name: %d\r\n",student_1.roll);
+	printf("Name: %f\r\n",student_1.mark);
+
+
+	return 0;
+}
+

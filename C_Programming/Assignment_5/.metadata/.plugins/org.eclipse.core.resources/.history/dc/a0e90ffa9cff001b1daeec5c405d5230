@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+enum Days
+{
+	Sunday = 0,
+	Monday,
+	Tuesday,
+	Wednesday = -1,
+	Thursday,
+	Friday,
+	Saturday
+};
+
+enum Days today;
+
+void main (void)
+{
+	today = Sunday;
+	printf ("Today = %d\n",today);
+
+	today = Thursday;
+	printf ("Today = %d\n",today);
+
+	today = 19;
+	printf ("Today = %d\n",today);
+}

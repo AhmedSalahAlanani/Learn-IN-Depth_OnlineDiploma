@@ -1,0 +1,439 @@
+18:48:09 **** Rebuild of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../libmingw32.a(main.o):(.text.startup+0xc0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+18:48:24 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:8: error: bit-field 'x' has invalid type
+   10 |  float x : 4;
+      |        ^
+..\main.c: In function 'main':
+..\main.c:16:19: warning: variable 'z' set but not used [-Wunused-but-set-variable]
+   16 |  struct Sanything z;
+      |                   ^
+18:48:37 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:16:19: warning: variable 'z' set but not used [-Wunused-but-set-variable]
+   16 |  struct Sanything z;
+      |                   ^
+gcc -o test.exe main.o 
+18:49:33 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -ansi -std-c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc: error: unrecognized command line option '-std-c89'; did you mean '-std=c89'?
+18:49:40 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -ansi -std-c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc: error: unrecognized command line option '-std-c89'; did you mean '-std=c89'?
+18:49:48 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -ansi -std-c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc: error: unrecognized command line option '-std-c89'; did you mean '-std=c89'?
+18:49:52 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -ansi -std-c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc: error: unrecognized command line option '-std-c89'; did you mean '-std=c89'?
+18:49:59 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -ansi -std-c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc: error: unrecognized command line option '-std-c89'; did you mean '-std=c89'?
+18:50:02 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -ansi -std-c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc: error: unrecognized command line option '-std-c89'; did you mean '-std=c89'?
+18:50:04 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -ansi -std-c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc: error: unrecognized command line option '-std-c89'; did you mean '-std=c89'?
+18:50:18 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -ansi -std-c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc: error: unrecognized command line option '-std-c89'; did you mean '-std=c89'?
+18:50:49 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -ansi -std-c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc: error: unrecognized command line option '-std-c89'; did you mean '-std=c89'?
+18:51:09 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -ansi -std-c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc: error: unrecognized command line option '-std-c89'; did you mean '-std=c89'?
+18:51:36 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -ansi -std-c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc: error: unrecognized command line option '-std-c89'; did you mean '-std=c89'?
+18:51:42 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -ansi -std-c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc: error: unrecognized command line option '-std-c89'; did you mean '-std=c89'?
+18:52:03 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -ansi -std-c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc: error: unrecognized command line option '-std-c89'; did you mean '-std=c89'?
+18:52:08 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -ansi -std-c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc: error: unrecognized command line option '-std-c89'; did you mean '-std=c89'?
+18:52:16 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -ansi -std-c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc: error: unrecognized command line option '-std-c89'; did you mean '-std=c89'?
+18:52:20 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -ansi -std-c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc: error: unrecognized command line option '-std-c89'; did you mean '-std=c89'?
+18:52:38 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -ansi -std-c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc: error: unrecognized command line option '-std-c89'; did you mean '-std=c89'?
+18:53:00 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:20:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   20 |  printf("Hello")
+      |  ^~~~~~
+..\main.c:20:2: warning: incompatible implicit declaration of built-in function 'printf'
+..\main.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | /*
+..\main.c:20:17: error: expected ';' before 'printf'
+   20 |  printf("Hello")
+      |                 ^
+      |                 ;
+   21 |  printf("%d",z.y);
+      |  ~~~~~~          
+..\main.c:16:19: warning: variable 'z' set but not used [-Wunused-but-set-variable]
+   16 |  struct Sanything z;
+      |                   ^
+18:53:05 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:20:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   20 |  printf("Hello");
+      |  ^~~~~~
+..\main.c:20:2: warning: incompatible implicit declaration of built-in function 'printf'
+..\main.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | /*
+..\main.c:21:15: warning: 'z.y' is used uninitialized in this function [-Wuninitialized]
+   21 |  printf("%d",z.y);
+      |              ~^~
+gcc -ansi -std=c89 -o test.exe main.o 
+18:53:13 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:8: error: bit-field 'x' has invalid type
+   10 |  float x : 4;
+      |        ^
+..\main.c: In function 'main':
+..\main.c:20:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   20 |  printf("Hello");
+      |  ^~~~~~
+..\main.c:20:2: warning: incompatible implicit declaration of built-in function 'printf'
+..\main.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | /*
+18:53:21 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:20:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   20 |  printf("Hello");
+      |  ^~~~~~
+..\main.c:20:2: warning: incompatible implicit declaration of built-in function 'printf'
+..\main.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | /*
+..\main.c:21:15: warning: 'z.y' is used uninitialized in this function [-Wuninitialized]
+   21 |  printf("%d",z.y);
+      |              ~^~
+gcc -ansi -std=c89 -o test.exe main.o 
+22:51:53 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:16:6: warning: return type of 'main' is not 'int' [-Wmain]
+   16 | void main (void)
+      |      ^~~~
+gcc -ansi -std=c89 -o test.exe main.o 
+22:52:05 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o test.exe main.o 
+Info: Nothing to build for test
+23:28:30 **** Rebuild of configuration Debug for project Assignment_5_1 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:20:18: warning: unused variable 'student_1' [-Wunused-variable]
+   20 |  struct Sstudent student_1;
+      |                  ^~~~~~~~~
+gcc -ansi -std=c89 -o Assignment_5_1.exe main.o 
+23:29:24 **** Incremental Build of configuration Debug for project Assignment_5_1 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Assignment_5_1.exe main.o 
+23:30:05 **** Incremental Build of configuration Debug for project Assignment_5_1 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:30:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   30 |  scanf("%d",student_1.roll);
+      |         ~^  ~~~~~~~~~~~~~~
+      |          |           |
+      |          int *       int
+..\main.c:34:10: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'double' [-Wformat=]
+   34 |  scanf("%f",student_1.mark);
+      |         ~^  ~~~~~~~~~~~~~~
+      |          |           |
+      |          float *     double
+gcc -ansi -std=c89 -o Assignment_5_1.exe main.o 
+23:30:17 **** Incremental Build of configuration Debug for project Assignment_5_1 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Assignment_5_1.exe main.o 
+Info: Nothing to build for Assignment_5_1
+23:31:46 **** Incremental Build of configuration Debug for project Assignment_5_1 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Assignment_5_1.exe main.o 
+Info: Nothing to build for Assignment_5_1
+23:36:43 **** Rebuild of configuration Debug for project Assignment_5_2 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:32:13: error: 'student_1' undeclared (first use in this function)
+   32 |  scanf("%s",student_1.name);
+      |             ^~~~~~~~~
+..\main.c:32:13: note: each undeclared identifier is reported only once for each function it appears in
+..\main.c:26:19: warning: unused variable 'distance_2' [-Wunused-variable]
+   26 |  struct Sdistance distance_2;
+      |                   ^~~~~~~~~~
+23:37:55 **** Incremental Build of configuration Debug for project Assignment_5_2 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:32:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   32 |  scanf("%d",distance_1.feet);
+      |         ~^  ~~~~~~~~~~~~~~~
+      |          |            |
+      |          int *        int
+..\main.c:36:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   36 |  scanf("%d",distance_1.feet);
+      |         ~^  ~~~~~~~~~~~~~~~
+      |          |            |
+      |          int *        int
+..\main.c:40:14: error: 'student_1' undeclared (first use in this function)
+   40 |  scanf("%f",&student_1.mark);
+      |              ^~~~~~~~~
+..\main.c:40:14: note: each undeclared identifier is reported only once for each function it appears in
+..\main.c:26:19: warning: unused variable 'distance_2' [-Wunused-variable]
+   26 |  struct Sdistance distance_2;
+      |                   ^~~~~~~~~~
+23:45:31 **** Incremental Build of configuration Debug for project Assignment_5_2 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'add_distances':
+..\main.c:35:24: error: invalid operands to binary % (have 'float' and 'int')
+   35 |   sum.inch += sum.inch % 12;
+      |               ~~~~~~~~ ^
+      |                  |
+      |                  float
+..\main.c: In function 'main':
+..\main.c:43:31: warning: variable 'temp' set but not used [-Wunused-but-set-variable]
+   43 |  struct Sdistance distance_2, temp;
+      |                               ^~~~
+23:46:24 **** Incremental Build of configuration Debug for project Assignment_5_2 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'add_distances':
+..\main.c:35:24: error: invalid operands to binary % (have 'float' and 'int')
+   35 |   sum.inch += sum.inch % 12;
+      |               ~~~~~~~~ ^
+      |                  |
+      |                  float
+23:46:55 **** Incremental Build of configuration Debug for project Assignment_5_2 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'add_distances':
+..\main.c:35:24: error: invalid operands to binary % (have 'float' and 'long double')
+   35 |   sum.inch += sum.inch % 12.0;
+      |               ~~~~~~~~ ^ ~~~~
+      |                  |       |
+      |                  float   double
+23:47:55 **** Incremental Build of configuration Debug for project Assignment_5_2 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Assignment_5_2.exe main.o 
+Info: Nothing to build for Assignment_5_2
+23:48:46 **** Incremental Build of configuration Debug for project Assignment_5_2 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Assignment_5_2.exe main.o 
+Info: Nothing to build for Assignment_5_2
+23:49:58 **** Incremental Build of configuration Debug for project Assignment_5_2 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Assignment_5_2.exe main.o 
+Info: Nothing to build for Assignment_5_2
+Info: Nothing to build for Assignment_5_2
+Info: Nothing to build for Assignment_5_2
+23:55:44 **** Incremental Build of configuration Debug for project Assignment_5_2 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:66:23: error: expected expression before '{' token
+   66 |  temp = add_distances({12,3.45}, {12,9.2});
+      |                       ^
+..\main.c:66:9: error: too few arguments to function 'add_distances'
+   66 |  temp = add_distances({12,3.45}, {12,9.2});
+      |         ^~~~~~~~~~~~~
+..\main.c:25:18: note: declared here
+   25 | struct Sdistance add_distances(struct Sdistance distance_1, struct Sdistance distance_2)
+      |                  ^~~~~~~~~~~~~
+23:56:52 **** Incremental Build of configuration Debug for project Assignment_5_2 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Assignment_5_2.exe main.o 
+Info: Nothing to build for Assignment_5_2
+23:59:29 **** Incremental Build of configuration Debug for project Assignment_5_2 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Assignment_5_2.exe main.o 
+Info: Nothing to build for Assignment_5_2
+00:00:03 **** Incremental Build of configuration Debug for project Assignment_5_2 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Assignment_5_2.exe main.o 
+00:00:50 **** Incremental Build of configuration Debug for project Assignment_5_2 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Assignment_5_2.exe main.o 
+00:00:51 **** Rebuild of configuration Debug for project Assignment_5_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Assignment_5_3.exe main.o 
+Info: Nothing to build for Assignment_5_3
+Info: Nothing to build for Assignment_5_2
+00:08:35 **** Incremental Build of configuration Debug for project Assignment_5_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:30:30: warning: variable 'sum' set but not used [-Wunused-but-set-variable]
+   30 |  struct Scomplex num1, num2, sum;
+      |                              ^~~
+gcc -o Assignment_5_3.exe main.o 
+Info: Nothing to build for Assignment_5_2
+00:08:46 **** Incremental Build of configuration Debug for project Assignment_5_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Assignment_5_3.exe main.o 
+Info: Nothing to build for Assignment_5_3
+Info: Nothing to build for Assignment_5_2
+00:09:31 **** Incremental Build of configuration Debug for project Assignment_5_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Assignment_5_3.exe main.o 
+00:09:56 **** Incremental Build of configuration Debug for project Assignment_5_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:13:46: error: parameter 1 ('num_1') has incomplete type
+   13 | struct Scomplex add_complex (struct Scomplex num_1, struct Scomplex num_2)
+      |                              ~~~~~~~~~~~~~~~~^~~~~
+..\main.c:13:69: error: parameter 2 ('num_2') has incomplete type
+   13 | struct Scomplex add_complex (struct Scomplex num_1, struct Scomplex num_2)
+      |                                                     ~~~~~~~~~~~~~~~~^~~~~
+..\main.c:13:17: error: return type is an incomplete type
+   13 | struct Scomplex add_complex (struct Scomplex num_1, struct Scomplex num_2)
+      |                 ^~~~~~~~~~~
+..\main.c: In function 'add_complex':
+..\main.c:15:18: error: storage size of 'sum' isn't known
+   15 |  struct Scomplex sum;
+      |                  ^~~
+..\main.c:20:9: warning: 'return' with a value, in function returning void [-Wreturn-type]
+   20 |  return sum;
+      |         ^~~
+..\main.c:13:17: note: declared here
+   13 | struct Scomplex add_complex (struct Scomplex num_1, struct Scomplex num_2)
+      |                 ^~~~~~~~~~~
+..\main.c:15:18: warning: unused variable 'sum' [-Wunused-variable]
+   15 |  struct Scomplex sum;
+      |                  ^~~
+..\main.c: In function 'main':
+..\main.c:44:6: error: void value not ignored as it ought to be
+   44 |  sum = add_complex (num1, num2);
+      |      ^
+00:10:00 **** Incremental Build of configuration Debug for project Assignment_5_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Assignment_5_3.exe main.o 
+Info: Nothing to build for Assignment_5_3
+00:11:07 **** Rebuild of configuration Debug for project Assignment_5_4 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Assignment_5_4.exe main.o 
+Info: Nothing to build for Assignment_5_3
+00:33:55 **** Incremental Build of configuration Debug for project Assignment_5_4 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:36:11: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'double' [-Wformat=]
+   36 |   scanf("%f", students[i].mark);
+      |          ~^   ~~~~~~~~~~~~~~~~
+      |           |              |
+      |           float *        double
+gcc -ansi -std=c89 -o Assignment_5_4.exe main.o 
+Info: Nothing to build for Assignment_5_3
+00:34:06 **** Incremental Build of configuration Debug for project Assignment_5_4 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Assignment_5_4.exe main.o 
+Info: Nothing to build for Assignment_5_4
+Info: Nothing to build for Assignment_5_3
+00:34:33 **** Incremental Build of configuration Debug for project Assignment_5_4 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -ansi -std=c89 -o Assignment_5_4.exe main.o 
+Info: Nothing to build for Assignment_5_4
+00:40:15 **** Rebuild of configuration Debug for project Assignment_5_5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:11:31: error: 'r' undeclared (first use in this function)
+   11 | #define Area(x) ((float)(3.14*r*r))
+      |                               ^
+..\main.c:23:26: note: in expansion of macro 'Area'
+   23 |  printf("Area = %f \r\n",Area(radius));
+      |                          ^~~~
+..\main.c:11:31: note: each undeclared identifier is reported only once for each function it appears in
+   11 | #define Area(x) ((float)(3.14*r*r))
+      |                               ^
+..\main.c:23:26: note: in expansion of macro 'Area'
+   23 |  printf("Area = %f \r\n",Area(radius));
+      |                          ^~~~
+00:40:32 **** Incremental Build of configuration Debug for project Assignment_5_5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:11:31: error: 'r' undeclared (first use in this function)
+   11 | #define Area(x) ((float)(3.14*r*r))
+      |                               ^
+..\main.c:23:27: note: in expansion of macro 'Area'
+   23 |  printf("Area = %f \r\n", Area(radius));
+      |                           ^~~~
+..\main.c:11:31: note: each undeclared identifier is reported only once for each function it appears in
+   11 | #define Area(x) ((float)(3.14*r*r))
+      |                               ^
+..\main.c:23:27: note: in expansion of macro 'Area'
+   23 |  printf("Area = %f \r\n", Area(radius));
+      |                           ^~~~
+00:40:48 **** Incremental Build of configuration Debug for project Assignment_5_5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Assignment_5_5.exe main.o 
+Info: Nothing to build for Assignment_5_5

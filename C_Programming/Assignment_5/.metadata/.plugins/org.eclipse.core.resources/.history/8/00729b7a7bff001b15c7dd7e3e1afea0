@@ -1,0 +1,24 @@
+/*
+ * main.c
+ *
+ *  Created on: Aug 17, 2021
+ *      Author: Ahmed Salah
+ */
+
+struct Sanything
+{
+	float x : 4;
+	int y : 2;
+};
+
+int main(void)
+{
+	struct Sanything z;
+
+	z.x = 0b1111;
+
+	printf("Hello");
+	printf("%d",z.y);
+
+	return 0;
+}

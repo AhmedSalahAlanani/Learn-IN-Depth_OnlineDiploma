@@ -1,0 +1,58 @@
+/*
+ * main.c
+ *
+ *  Created on: Aug 18, 2021
+ *      Author: Ahmed Salah
+ */
+
+
+#include <stdio.h>
+
+struct Scomplex
+{
+	float m_real;
+	float m_imaginary;
+};
+
+
+struct Scomplex add_complex (struct Scomplex num_1, struct Scomplex num_2)
+{
+	struct Scomplex sum;
+
+	sum.m_real = num_1.m_real + num_2.m_real;
+	sum.m_imaginary = num_1.m_imaginary + num_2.m_imaginary;
+
+	return sum;
+}
+
+int main (void)
+{
+	struct Scomplex num1, num2, sum;
+
+	printf("Enter information for 1st distance: \r\n");
+
+	printf("Enter feet: ");
+	fflush(stdin);	fflush(stdout);
+	scanf("%d",&distance_1.feet);
+
+	printf("Enter inch: ");
+	fflush(stdin);	fflush(stdout);
+	scanf("%f",&distance_1.inch);
+
+	printf("\r\nEnter information for 2nd distance: \r\n");
+
+	printf("Enter feet: ");
+	fflush(stdin);	fflush(stdout);
+	scanf("%d",&distance_2.feet);
+
+	printf("Enter inch: ");
+	fflush(stdin);	fflush(stdout);
+	scanf("%f",&distance_2.inch);
+
+	temp = add_distances(distance_1, distance_2);
+
+	printf("Sum of distances = %d' - %f \r\n", temp.feet, temp.inch);
+
+	return 0;
+}
+

@@ -1,0 +1,27 @@
+/*
+ * main.c
+ *
+ *  Created on: Aug 17, 2021
+ *      Author: Ahmed Salah
+ */
+
+
+#include <stdio.h>
+
+struct Sstudent
+{
+	char name[100];
+	int roll;
+	float mark;
+};
+
+int main (void)
+{
+	struct Sstudent student_1;
+
+	printf("Enter information of students: \r\n");
+	fflush(stdin);	fflush(stdout);
+
+
+	return 0;
+}
